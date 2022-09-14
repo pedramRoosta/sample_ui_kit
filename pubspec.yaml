@@ -1,0 +1,30 @@
+name: bahag_ui_kit
+description: a sample UI kit application made in Flutter
+version: 0.0.1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flash: ^2.0.3+3
+  flutter:
+    sdk: flutter
+  shimmer: ^2.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+  fonts:
+    - family: Taz
+      fonts:
+        - asset: assets/fonts/Taz-Regular.otf
+        - asset: assets/fonts/Taz-Bold.otf
+          weight: 700
+        - asset: assets/fonts/Taz-Black.otf
+          weight: 900
